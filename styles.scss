@@ -134,6 +134,8 @@ main {
       img {
         width: 100%;
         border-radius: 1rem;
+        object-fit: cover;
+        height: 100%;
       }
     }
 
@@ -362,6 +364,7 @@ main {
         width: 100%;
         object-fit: cover;
         border-radius: 10px;
+        height: 100%;
       }
     }
   }
@@ -516,7 +519,7 @@ main {
 
       .Head-text {
         padding: 0 1.5rem;
-        display: flex;  
+        display: flex;
         flex-wrap: wrap;
 
         h1 {
@@ -763,8 +766,10 @@ main {
           background-color: var(--bg-secondary);
           border: 1px solid var(--text-secondary);
           color: var(--bg-secondary);
+          text-decoration: none;
           i {
             color: var(--text-primary);
+            text-decoration: none;
           }
         }
       }
