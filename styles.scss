@@ -137,6 +137,7 @@ main {
   section.view1 {
     @include flex-direction();
     gap: 2rem;
+    margin-bottom: 1rem;
 
     .top {
       width: 100%;
@@ -677,6 +678,11 @@ main {
           font-weight: 100;
           color: var(--text-primary);
           border: 1px solid var(--text-primary);
+
+          a {
+            text-decoration: none;
+            color: var(--text-primary);
+          }
         }
       }
     }
@@ -806,7 +812,6 @@ main {
       }
       .right {
         button.btn3,
-        button.btn2,
         button.btn1 {
           display: block;
           padding: 0.4rem 1.4rem;
@@ -814,12 +819,16 @@ main {
           font-size: 0.8rem;
           letter-spacing: 1px;
         }
+        button.btn2 {
+          display: none;
+        }
       }
     }
 
     section.view1 {
       display: flex;
       flex-direction: row;
+      margin-bottom: 1rem;
       .top {
         width: 50%;
       }
@@ -1078,7 +1087,7 @@ main {
           font-weight: 600;
         }
         h1 {
-          font-size: 5rem;
+          font-size: 4.5rem;
           color: var(--text-primary);
           letter-spacing: 2px;
         }
@@ -1135,7 +1144,6 @@ main {
         justify-content: space-between;
 
         h2 {
-          
           a {
             text-decoration: none;
             color: var(--text-primary);
@@ -1145,5 +1153,3 @@ main {
     }
   }
 }
-
-
