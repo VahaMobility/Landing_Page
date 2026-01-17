@@ -113,6 +113,7 @@ main section.view1 {
   flex-direction: column;
   border-radius: 10px;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 main section.view1 .top {
   width: 100%;
@@ -356,7 +357,7 @@ main section.view6 .card1 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(./W-Ranjan-Choudhary.jpeg);
+  background-image: url(/W-Ranjan-Choudhary.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -366,7 +367,7 @@ main section.view6 .card2 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(./W-Merrak-Subba.jpeg);
+  background-image: url(/W-Merrak-Subba.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.6;
@@ -376,7 +377,7 @@ main section.view6 .card3 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(./W-Jaydip-Shelke.jpeg);
+  background-image: url(/W-Jaydip-Shelke.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -386,7 +387,7 @@ main section.view6 .card4 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(./Amol\ Shinde.png);
+  background-image: url(/Amol\ Shinde.png);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -608,6 +609,12 @@ main section.mega section.view9 .icons .instagram {
   color: var(--text-primary);
   border: 1px solid var(--text-primary);
 }
+main section.mega section.view9 .icons .twitter a,
+main section.mega section.view9 .icons .linkdin a,
+main section.mega section.view9 .icons .instagram a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
 main section.mega section.view11 {
   margin-top: 1rem;
   width: 100%;
@@ -681,7 +688,6 @@ main section.mega section.view11 .bottom button i {
     padding: 0.4rem 1rem;
   }
   main section.view0 .right button.btn3,
-  main section.view0 .right button.btn2,
   main section.view0 .right button.btn1 {
     display: block;
     padding: 0.4rem 1.4rem;
@@ -689,9 +695,13 @@ main section.mega section.view11 .bottom button i {
     font-size: 0.8rem;
     letter-spacing: 1px;
   }
+  main section.view0 .right button.btn2 {
+    display: none;
+  }
   main section.view1 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1rem;
   }
   main section.view1 .top {
     width: 50%;
@@ -916,7 +926,7 @@ main section.mega section.view11 .bottom button i {
     font-weight: 600;
   }
   main section.view8 .top h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: var(--text-primary);
     letter-spacing: 2px;
   }
