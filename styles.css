@@ -18,7 +18,7 @@ body {
   --text-secondary: #71706e;
   --bg-primary: #121212;
   --bg-secondary: #1e1e1e;
-  --bg-yellow: #2C4D30;
+  --bg-yellow: #ae9e4a;
 }
 
 main {
@@ -356,7 +356,7 @@ main section.view6 .card1 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(W-Ranjan-Choudhary.jpeg);
+  background-image: url(Images/W-Ranjan-Choudhary.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -366,7 +366,7 @@ main section.view6 .card2 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(W-Merrak-Subba.jpeg);
+  background-image: url(Images/W-Merrak-Subba.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.6;
@@ -376,7 +376,7 @@ main section.view6 .card3 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(/W-Jaydip-Shelke.jpeg);
+  background-image: url(Images/W-Jaydip-Shelke.jpeg);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -386,7 +386,7 @@ main section.view6 .card4 {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1/1;
-  background-image: url(/Amol\ Shinde.png);
+  background-image: url(Images/Amol\ Shinde.png);
   background-size: cover;
   border-radius: 10px;
   opacity: 0.7;
@@ -521,7 +521,8 @@ main section.view8 {
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1rem;
-  background-color: var(--bg-yellow);
+  background-color: #2c4d30;
+  color: var(--text-primary);
 }
 main section.view8 .top {
   padding: 1rem;
@@ -533,12 +534,14 @@ main section.view8 .top h4 {
   opacity: 0.8;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: var(--text-primary);
 }
 main section.view8 .top h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
+  color: var(--text-primary);
 }
 main section.view8 .bottom {
   width: 100%;
@@ -605,49 +608,6 @@ main section.mega section.view9 .icons .instagram {
   color: var(--text-primary);
   border: 1px solid var(--text-primary);
 }
-main section.mega section.view10 {
-  width: 100%;
-  max-width: 1600px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  padding: 1rem;
-  background-color: var(--bg-secondary);
-  margin-top: 1rem;
-  gap: 1rem;
-}
-main section.mega section.view10 .text {
-  text-transform: uppercase;
-  gap: 1.7rem;
-  display: flex;
-  flex-direction: column;
-  align-items: first baseline;
-}
-main section.mega section.view10 .text button {
-  padding: 1rem;
-  font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: var(--bg-yellow);
-  text-transform: uppercase;
-  border-radius: 10px;
-  letter-spacing: 1px;
-  border: 1px solid var(--bg-yellow);
-}
-main section.mega section.view10 h1 {
-  font-size: 1.2rem;
-  color: var(--text-primary);
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-main section.mega section.view10 h4 {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  font-weight: 500;
-  letter-spacing: 1px;
-}
 main section.mega section.view11 {
   margin-top: 1rem;
   width: 100%;
@@ -665,7 +625,7 @@ main section.mega section.view11 .top {
   align-items: center;
 }
 main section.mega section.view11 .top h2 {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
@@ -802,6 +762,10 @@ main section.mega section.view11 .bottom button i {
     display: flex;
     justify-content: space-between;
   }
+  main section.view3 .top h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
   main section.view3 .top .Head-text h1 {
     font-size: 3rem;
     letter-spacing: 2px;
@@ -835,6 +799,10 @@ main section.mega section.view11 .bottom button i {
     padding: 0 3rem;
     display: flex;
     justify-content: space-between;
+  }
+  main section.view4 .top h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
   }
   main section.view4 .top .Head-text h1 {
     font-size: 3rem;
@@ -944,9 +912,12 @@ main section.mega section.view11 .bottom button i {
     width: 70%;
     padding: 2rem 4rem;
   }
+  main section.view8 .top h4 {
+    font-weight: 600;
+  }
   main section.view8 .top h1 {
     font-size: 5rem;
-    color: var(--bg-secondary);
+    color: var(--text-primary);
     letter-spacing: 2px;
   }
   main section.view8 .bottom {
@@ -963,7 +934,7 @@ main section.mega section.view11 .bottom button i {
     display: grid;
     grid-template-columns: 280px 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "view9 view10" "view9 view11";
+    grid-template-areas: "view9 view11";
     width: 100%;
     gap: 1rem;
   }
@@ -973,18 +944,11 @@ main section.mega section.view11 .bottom button i {
   }
   main section.mega section.view9 .top {
     display: flex;
-    gap: 27rem;
+    gap: 2rem;
   }
   main section.mega section.view9 .top .text h2 {
     font-size: 1.5rem;
     font-weight: 400;
-  }
-  main section.mega section.view10 {
-    grid-area: view10;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4rem;
   }
   main section.mega section.view11 {
     grid-area: view11;
@@ -992,5 +956,9 @@ main section.mega section.view11 .bottom button i {
     flex-direction: row;
     padding: 2.5rem;
     justify-content: space-between;
+  }
+  main section.mega section.view11 h2 a {
+    text-decoration: none;
+    color: var(--text-primary);
   }
 }/*# sourceMappingURL=styles.css.map */
